@@ -1,12 +1,10 @@
 * {
-  background-color: #23222D;
-  color: #fff;
+  box-sizing: border-box;
+  color: #213555;
+  padding: 0;
+  margin: 0;
 }
 
-.btn-p {
-  background-color: #F79327 !important;
-  color: #fff !important;
-}
 .container {
   width: min(100% - 30px, 1200px);
   height: 100vh;
@@ -18,10 +16,29 @@
 }
 
 header {
-  min-width: 100vh;
   background-color: #213555;
   overflow: hidden;
   color: aliceblue;
+  padding: 15px;
+}
+
+header h1 {
+  color: #f2f2f2;
+}
+
+header a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 0;
+}
+
+header a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
 li a {
