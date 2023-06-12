@@ -45,52 +45,8 @@ li a {
   text-decoration: none;
 }
 
-.user {
-  border-style: solid;
-  border-top-color: #fff;
-  border-width: 1px;
-}
-
-.row-repo {
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color: #23222D;
-  margin-top: 5px;
-  border-radius: 5px;
-} 
-
 li {
   display: inline;
 }
 
-.num-repos, .num-followers, .num-followings, .repo-name {
-  color: #0CB05F;
-}
 
-.repo-info {
-  text-align: left;
-}
-
-.updated-date {
-  text-align: right;
-}
-
-.btn-g {
-  background-color: #F79327 !important;
-  color: #fff !important;
-  border-radius: 50px;
-  border: none;
-  font-size: 0.5rem;
-  padding: 5px;
-  width: 17vh;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
